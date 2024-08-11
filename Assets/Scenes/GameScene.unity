@@ -563,7 +563,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1329218881}
   - component: {fileID: 1329218880}
-  - component: {fileID: 1329218882}
   - component: {fileID: 1329218883}
   m_Layer: 0
   m_Name: Spring
@@ -641,18 +640,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1329218882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1329218879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd119ae85cd4afc4b92bab459bc707cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1329218883
 BoxCollider2D:
   m_ObjectHideFlags: 0
